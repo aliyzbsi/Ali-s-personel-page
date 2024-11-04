@@ -10,8 +10,8 @@ function Footer() {
   const { darkMode } = useTheme();
   const { t } = useLanguage();
   return (
-    <footer className="flex gap-8 items-center justify-center p-20 mt-8">
-      <h1 className="font-normal text-5xl text-end w-1/3 p-8">
+    <footer className="flex gap-8 dark:bg-[#484148] items-center  justify-center p-20 ">
+      <h1 className="font-normal text-5xl text-end w-144 p-8">
         {t("footerText")}
       </h1>
       <div className="flex flex-col text-2xl gap-2">
@@ -22,14 +22,14 @@ function Footer() {
           Github <FaGithub color={darkMode ? "white" : "black"} size={35} />
         </a>
         <a
-          className="flex gap-2 items-center w-full border-2 justify-between p-2 dark:hover:bg-white dark:hover:text-black hover:bg-[#0077B5] hover:text-white"
+          className="flex gap-2 items-center w-full border-2 justify-between p-2 dark:hover:bg-white dark:hover:text-[#0077B5] hover:bg-[#0077B5] hover:text-white"
           href="https://www.linkedin.com/in/aliyuzbasi/"
         >
           Linkedin{" "}
           <FaLinkedin color={darkMode ? "white" : "#0077B5"} size={35} />
         </a>
         <a
-          className="flex gap-2 items-center w-full border-2 justify-between p-2 dark:hover:bg-white dark:hover:text-black hover:bg-[#E4405F] hover:text-white"
+          className="flex gap-2 items-center w-full border-2 justify-between p-2 dark:hover:bg-white dark:hover:text-[#E4405F] hover:bg-[#E4405F] hover:text-white"
           href="https://www.instagram.com/aliyzbsi/"
         >
           Instagram
@@ -37,7 +37,7 @@ function Footer() {
         </a>
 
         <a
-          className="flex gap-2 items-center w-full border-2 justify-between p-2 dark:hover:bg-white dark:hover:text-black hover:bg-[#0078d4] hover:text-white"
+          className="flex gap-2 items-center w-full border-2 justify-between p-2 dark:hover:bg-white dark:hover:text-[#0078d4] hover:bg-[#0078d4] hover:text-white"
           href="mailto:aliyzbsi68@hotmail.com"
         >
           Email{" "}

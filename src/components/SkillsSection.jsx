@@ -8,7 +8,7 @@ function SkillsSection() {
     <section className="dark:bg-[#353435]  p-28  ">
       <h1
         translate="no"
-        className="font-bold text-2xl text-center p-4 border-b "
+        className="font-bold text-4xl text-center p-4 border-b "
       >
         {t("skillsTitle")}
       </h1>
