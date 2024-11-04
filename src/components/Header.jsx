@@ -30,14 +30,14 @@ function Header() {
             onChange={toggleTheme}
             checked={darkMode}
           />
-          <div className="w-11 h-6 bg-red-700 rounded-full peer peer-focus:ring-4 border peer-checked:bg-black">
+          <div className="w-11 h-6 bg-red-600 rounded-full peer peer-focus:ring-4 border peer-checked:bg-black">
             <div
               className={`absolute top-1 left-1 transition-transform duration-200 ease-in-out ${
                 !darkMode ? "translate-x-5" : ""
               }`}
             >
               {!darkMode ? (
-                <CiLight color="orange" />
+                <CiLight color="yellow" />
               ) : (
                 <MdDarkMode color="yellow" />
               )}

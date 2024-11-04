@@ -41,7 +41,7 @@ const bgColors = {
   2: "bg-[#D9F6F1] dark:bg-[#6f7c79]",
   3: "bg-orange-200  dark:bg-[#495351]",
   4: "bg-purple-100 dark:bg-[#2D3235]",
-  5: "bg-indigo-100 dark:bg-red-900",
+  5: "bg-indigo-100 dark:bg-[#1e2e38]",
 };
 const projectImages = {
   1: proje1,

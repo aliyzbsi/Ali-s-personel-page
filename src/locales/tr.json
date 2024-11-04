@@ -90,7 +90,7 @@
 
   "personelInfo": [
     {
-      "dateOfBirth": "10/10/2010",
+      "dateOfBirth": "20/09/1999",
       "residenceAdr": "Aksaray",
       "preferredRole": ["Frontend", "UI", "Backend"],
       "education": "Fırat Üniversitesi, Yazılım Mühendisliği, Lisans Diploması, 2022",
