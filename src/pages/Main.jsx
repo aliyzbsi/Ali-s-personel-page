@@ -13,11 +13,7 @@ function Main() {
     <div translate="no" className="flex flex-col">
       <Helmet>
         <title>Ali Yüzbaşı | Software Engineer</title>
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href={darkMode ? "./public/assets/1.png" : "./public/assets/2.png"}
-        />
+        <link rel="icon" type="image/svg+xml" href="./public/assets/2.png" />
 
         <meta
           name="description"
