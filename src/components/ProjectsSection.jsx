@@ -66,7 +66,7 @@ function ProjectsSection() {
   }, [selectedLang]);
 
   return (
-    <section className="flex flex-col items-center  dark:bg-[#484148] p-8 overflow-hidden ">
+    <section className="flex flex-col items-center  dark:bg-neutral-900 p-8 overflow-hidden border-t ">
       <h1 className="text-3xl  font-semibold text-gray-800 dark:text-white mb-16">
         {t("projectTitle")}
       </h1>

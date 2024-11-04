@@ -5,10 +5,10 @@ function SkillsSection() {
   const { t } = useLanguage();
 
   return (
-    <section className="dark:bg-[#353435]   ">
+    <section className="dark:bg-neutral-900   ">
       <h1
         translate="no"
-        className="font-semibold text-2xl text-center p-4 border-b "
+        className="font-semibold text-2xl text-center p-4  border-t "
       >
         {t("skillsTitle")}
       </h1>

@@ -41,9 +41,9 @@ function ProfileSection() {
         ]
       : [];
   return (
-    <section className="flex justify-center h-full px-4 py-8 sm:px-6 md:px-12 lg:px-16 bg-gray-100 md:h-auto dark:bg-neutral-900">
+    <section className="flex justify-center h-full px-4 py-8 sm:px-6 md:px-12 lg:px-16 bg-gray-100 md:h-auto border-t dark:bg-neutral-900">
       <div className="max-w-4xl w-full text-center space-y-8">
-        <h1 className="text-xl sm:text-xl md:text-2xl font-semibold text-gray-800 dark:text-white">
+        <h1 className="text-xl sm:text-xl md:text-2xl font-semibold text-gray-800 dark:text-white ">
           {t("profileTitle")}
         </h1>
         <div className="flex flex-col md:flex-row justify-center items-start gap-8 relative">

@@ -10,7 +10,7 @@ function Footer() {
   const { darkMode } = useTheme();
   const { t } = useLanguage();
   return (
-    <footer className="flex flex-col md:flex-row gap-8 dark:bg-[#484148] items-center  justify-center p-20 ">
+    <footer className="flex flex-col md:flex-row gap-8 dark:bg-neutral-900 items-center  justify-center p-20 ">
       <h1 className="font-normal text-3xl text-center w-80 md:w-144 md:text-end p-8">
         {t("footerText")}
       </h1>
