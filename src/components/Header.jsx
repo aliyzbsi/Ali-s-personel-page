@@ -20,7 +20,7 @@ function Header() {
   }, [setSelectedLang]);
 
   return (
-    <header className="flex fixed justify-end items-center bg-gray-50 dark:bg-neutral-900 z-20 p-12 gap-4 w-full ">
+    <header className="flex fixed justify-end items-center bg-gray-50 opacity-75 dark:bg-neutral-900 z-20 p-4 gap-4 w-full ">
       <div className="flex items-center">
         <label className="relative inline-flex items-center cursor-pointer">
           <input
@@ -30,20 +30,20 @@ function Header() {
             onChange={toggleTheme}
             checked={darkMode}
           />
-          <div className="w-11 h-6 bg-red-600 rounded-full peer peer-focus:ring-4 border peer-checked:bg-black">
+          <div className="w-12 h-4 bg-red-600 rounded-full peer peer-focus:ring-4 border peer-checked:bg-black">
             <div
-              className={`absolute top-1 left-1 transition-transform duration-200 ease-in-out ${
-                !darkMode ? "translate-x-5" : ""
+              className={`absolute top-[ 2px]  transition-transform duration-200 ease-in-out ${
+                !darkMode ? "translate-x-5 left-3" : ""
               }`}
             >
               {!darkMode ? (
-                <CiLight color="yellow" />
+                <CiLight color="yellow" size={15} />
               ) : (
-                <MdDarkMode color="yellow" />
+                <MdDarkMode color="yellow" size={15} />
               )}
             </div>
           </div>
-          <span className="ml-3 font-medium text-sm text-gray-900 dark:text-gray-300">
+          <span className="ml-3 font-medium text-xs text-gray-900 dark:text-gray-300">
             {!darkMode ? "LIGHT MODE" : "DARK MODE"}
           </span>
         </label>
@@ -54,7 +54,7 @@ function Header() {
         {selectedLang === "en" ? (
           <button
             onClick={() => setSelectedLang("tr")}
-            className="text-sm dark:text-white"
+            className="text-xs dark:text-white"
           >
             <span className="font-semibold text-red-500 hover:underline">
               TÜRKÇE
@@ -64,7 +64,7 @@ function Header() {
         ) : (
           <button
             onClick={() => setSelectedLang("en")}
-            className="text-sm dark:text-white"
+            className="text-xs dark:text-white"
           >
             SWITCH TO
             <span className="font-semibold text-red-500 hover:underline">

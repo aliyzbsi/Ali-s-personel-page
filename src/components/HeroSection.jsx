@@ -14,13 +14,13 @@ function HeroSection() {
           <div className="flex flex-col items-center md:items-start gap-4 md:w-3/4">
             <h1
               translate="no"
-              className="flex gap-2 items-center text-3xl md:text-4xl font-semibold text-gray-800 dark:text-gray-100"
+              className="flex gap-2 items-center text-xl md:text-2xl font-semibold text-gray-800 dark:text-gray-100"
             >
               {t("entry")} <img src={iconHi} width={30} alt="entryIcon" />
             </h1>
             <p
               translate="no"
-              className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300"
+              className="text-2xl md:text-xl text-gray-700 dark:text-gray-300"
             >
               {t("headerAboutMe")}
             </p>

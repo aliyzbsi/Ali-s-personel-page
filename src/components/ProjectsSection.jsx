@@ -31,6 +31,12 @@ const sliderSettings = {
     {
       breakpoint: 768,
       settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 650,
+      settings: {
         slidesToShow: 1,
       },
     },
@@ -61,36 +67,36 @@ function ProjectsSection() {
 
   return (
     <section className="flex flex-col items-center  dark:bg-[#484148] p-8 overflow-hidden ">
-      <h1 className="text-3xl mt-12 font-bold text-gray-800 dark:text-white mb-16">
+      <h1 className="text-3xl  font-semibold text-gray-800 dark:text-white mb-16">
         {t("projectTitle")}
       </h1>
-      <div className="w-full max-w-screen-2xl   ">
+      <div className="w-full max-w-screen-lg   ">
         <Slider {...sliderSettings}>
           {projects.map((project, index) => (
             <div key={index} className="px-2 ">
               <div
-                className={`flex flex-col p-2 py-8 rounded-2xl  shadow-lg   ${
+                className={`flex flex-col px-1 py-8 rounded-2xl  shadow-lg   ${
                   bgColors[project.id] || "bg-white dark:bg-gray-800"
                 }`}
               >
-                <div className="px-4 py-2 h-192 md:h-160  ">
-                  <div className="">
-                    <h2 className="text-2xl font-semibold mb-2">
+                <div className="px-2 py-1 h-176 md:h-128  ">
+                  <div>
+                    <h2 className="text-lg border-b-2 font-semibold mb-2">
                       {project.name}
                     </h2>
-                    <p className="text-xl">{project.description}</p>
+                    <p className="text-sm">{project.description}</p>
                   </div>
                   <div className="mt-2 md:mt-4 flex gap-4 flex-wrap">
                     {project.technologies.map((item, index) => (
                       <p
-                        className="bg-white font-semibold text-black rounded px-3 py-1"
+                        className="bg-white font-semibold text-sm text-black rounded px-3 py-1"
                         key={index}
                       >
                         {item}
                       </p>
                     ))}
                   </div>
-                  <div className="flex justify-between  mt-8 font-semibold text-xl text-black dark:text-white">
+                  <div className="flex flex-col gap-4 md:flex-row lg:mt-4 justify-between  mt-8 font-semibold text-base text-black dark:text-white">
                     <a
                       href={project.githubUrl}
                       className="scale-90 hover:scale-100 duration-200"

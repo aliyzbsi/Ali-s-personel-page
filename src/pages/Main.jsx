@@ -5,12 +5,20 @@ import HeroSection from "../components/HeroSection";
 import ProfileSection from "../components/ProfileSection";
 import ProjectsSection from "../components/ProjectsSection";
 import SkillsSection from "../components/SkillsSection";
+import { useTheme } from "../context/ThemeContext";
 
 function Main() {
+  const { darkMode } = useTheme();
   return (
     <div translate="no" className="flex flex-col">
       <Helmet>
         <title>Ali Yüzbaşı | Software Engineer</title>
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href={darkMode ? "./public/assets/1.png" : "./public/assets/2.png"}
+        />
+
         <meta
           name="description"
           content="Ali Yüzbaşı'nın yazılım geliştirme becerilerini, projelerini ve profesyonel profilini keşfedin."

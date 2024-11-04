@@ -62,9 +62,10 @@
       "technologies": [
         "React",
         "Axios",
+        "React Hook Form",
         "Router",
         "Toastify",
-        "React Hook Form",
+
         "Vercel"
       ]
     },
