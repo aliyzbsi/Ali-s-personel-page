@@ -7,7 +7,7 @@ export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useLocaleStorage("darkMode", true);
 
   const toggleTheme = () => {
-    setDarkMode((prevMode) => !prevMode);
+    setDarkMode(!darkMode);
   };
   useEffect(() => {
     if (darkMode) {

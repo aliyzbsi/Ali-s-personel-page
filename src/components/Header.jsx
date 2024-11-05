@@ -8,17 +8,6 @@ function Header() {
   const { selectedLang, setSelectedLang } = useLanguage();
   const { darkMode, toggleTheme } = useTheme();
 
-  useEffect(() => {
-    localStorage.setItem("selectedLang", selectedLang);
-  }, [selectedLang]);
-
-  useEffect(() => {
-    const storedLang = localStorage.getItem("selectedLang");
-    if (storedLang) {
-      setSelectedLang(storedLang);
-    }
-  }, [setSelectedLang]);
-
   return (
     <header className="flex fixed justify-end items-center bg-gray-50 opacity-75 dark:bg-neutral-900 z-20 p-4 gap-4 w-full ">
       <div className="flex items-center">

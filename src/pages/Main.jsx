@@ -8,7 +8,6 @@ import SkillsSection from "../components/SkillsSection";
 import { useTheme } from "../context/ThemeContext";
 
 function Main() {
-  const { darkMode } = useTheme();
   return (
     <div translate="no" className="flex flex-col">
       <Helmet>
