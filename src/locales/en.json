@@ -15,6 +15,7 @@
   "github": "View on Github",
   "goApp": "Go to App",
   "email": "aliyzbsi68@hotmail.com",
+  "cv": "Resume",
   "projects": [
     {
       "id": 1,
@@ -60,7 +61,7 @@
       "dateCreated": "2023-11-03",
       "technologies": [
         "React",
-        "Axios",
+
         "React Hook Form",
         "Router",
         "Toastify",

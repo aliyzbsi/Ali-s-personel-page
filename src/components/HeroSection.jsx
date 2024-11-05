@@ -4,6 +4,7 @@ import iconHi from "../../public/assets/icon.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
+import { FaFileDownload } from "react-icons/fa";
 
 function HeroSection() {
   const { t } = useLanguage();
@@ -58,6 +59,14 @@ function HeroSection() {
                 {t("email")} <SiMinutemailer />
               </a>
             </p>
+            <a
+              href="/public/Aliyzbsiresume.pdf"
+              className="flex items-center gap-2 border-2 w-32 p-2 rounded-3xl justify-center font-semibold text-sm border-red-500 hover:text-white hover:bg-red-500"
+              download
+            >
+              {t("cv")}
+              <FaFileDownload />
+            </a>
           </div>
         </div>
 
