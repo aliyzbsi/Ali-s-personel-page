@@ -79,7 +79,7 @@ function ProjectsSection() {
                   bgColors[project.id] || "bg-white dark:bg-gray-800"
                 }`}
               >
-                <div className="px-2 py-1 h-176 md:h-128  ">
+                <div className="px-2 py-1 h-144 md:h-128  ">
                   <div>
                     <h2 className="text-lg border-b-2 font-semibold mb-2">
                       {project.name}
