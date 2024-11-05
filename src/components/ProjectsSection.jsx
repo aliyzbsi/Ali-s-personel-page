@@ -117,7 +117,7 @@ function ProjectsSection() {
                 src={projectImages[project.id] || projectAll}
                 alt={`${project.name} photo`}
                 width={250}
-                className="relative z-50 mt-4 w-full -translate-y-20 md:scale-100 md:hover:scale-150  rounded-md transform transition-all duration-300 scale-90 hover:scale-105 hover:shadow-2xl"
+                className="relative z-50 mt-4 w-full -translate-y-20 md:scale-100 md:hover:scale-150  rounded-md transform transition-all duration-300 scale-90 hover:scale-105 "
               />
             </div>
           ))}
