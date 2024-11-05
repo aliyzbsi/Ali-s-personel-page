@@ -59,14 +59,16 @@ function HeroSection() {
                 {t("email")} <SiMinutemailer />
               </a>
             </p>
-            <a
-              href="/public/Aliyzbsiresume.pdf"
-              className="flex items-center gap-2 border-2 w-32 p-2 rounded-3xl justify-center font-semibold text-sm border-red-500 hover:text-white hover:bg-red-500"
-              download
-            >
-              {t("cv")}
-              <FaFileDownload />
-            </a>
+            <div className="flex  justify-center md:justify-start">
+              <a
+                href="/public/Aliyzbsiresume.pdf"
+                className="flex items-center gap-2 border-2 w-32 p-2 rounded-3xl justify-center font-semibold text-sm border-red-500 hover:text-white hover:bg-red-500"
+                download
+              >
+                {t("cv")}
+                <FaFileDownload />
+              </a>
+            </div>
           </div>
         </div>
 
