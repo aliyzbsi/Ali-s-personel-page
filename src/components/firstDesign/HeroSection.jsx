@@ -73,12 +73,12 @@ function HeroSection() {
           </div>
         </div>
 
-        <div className="relative flex items-center mt-8 justify-center w-3/4 md:w-1/3 lg:w-1/4">
-          <div className="absolute inset-0 bg-zinc-100 -translate-y-7 -translate-x-7  dark:bg-neutral-800 dark:shadow-[0_0_50px_white] rounded-full shadow-[0_0_100px_black] z-0 transition-transform duration-300"></div>
+        <div className="relative flex items-center mt-8 max-w-[300px] min-w-[300px] justify-center w-3/4 md:w-1/3 lg:w-1/4">
+          <div className="absolute inset-0  bg-zinc-100 -translate-y-7 -translate-x-7  dark:bg-neutral-800 dark:shadow-[0_0_50px_white] rounded-full shadow-[0_0_100px_black] z-0 transition-transform duration-300"></div>
 
           <img
             src={myPhoto}
-            className="rounded-full border-4 border-gray-300 dark:border-gray-400 shadow-lg  dark:shadow-[0_0_5px_white] relative z-10 "
+            className="rounded-full border-4  border-gray-300 dark:border-gray-400 shadow-lg  dark:shadow-[0_0_5px_white] relative z-10 "
             alt="My Profile"
           />
         </div>
