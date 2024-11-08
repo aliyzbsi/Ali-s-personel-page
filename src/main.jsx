@@ -3,11 +3,17 @@ import "./index.css";
 import App from "./App.jsx";
 import { LanguageProviderContext } from "./context/LanguageContext.jsx";
 import { ThemeProvider } from "./context/ThemeContext.jsx";
+import { DesignProvider } from "./context/DesignContext.jsx";
+import { ScrollProvider } from "./context/ScrollContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <ThemeProvider>
-    <LanguageProviderContext>
-      <App />
-    </LanguageProviderContext>
-  </ThemeProvider>
+  <DesignProvider>
+    <ThemeProvider>
+      <LanguageProviderContext>
+        <ScrollProvider>
+          <App />
+        </ScrollProvider>
+      </LanguageProviderContext>
+    </ThemeProvider>
+  </DesignProvider>
 );

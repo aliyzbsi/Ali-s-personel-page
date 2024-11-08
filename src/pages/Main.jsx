@@ -1,15 +1,13 @@
 import { Helmet } from "react-helmet";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import HeroSection from "../components/HeroSection";
-import ProfileSection from "../components/ProfileSection";
-import ProjectsSection from "../components/ProjectsSection";
-import SkillsSection from "../components/SkillsSection";
-import { useTheme } from "../context/ThemeContext";
+import { useDesign } from "../context/DesignContext";
+import FirstDesign from "./FirstDesign";
+import SecondDesign from "./SecondDesign";
+import ThirdDesign from "./ThirdDesign";
 
 function Main() {
+  const { design } = useDesign();
   return (
-    <div translate="no" className="flex flex-col">
+    <div>
       <Helmet>
         <title>Ali Yüzbaşı | Software Engineer</title>
 
@@ -18,14 +16,10 @@ function Main() {
           content="Ali Yüzbaşı'nın yazılım geliştirme becerilerini, projelerini ve profesyonel profilini keşfedin."
         />
       </Helmet>
-      <Header />
-      <div className="flex flex-col ">
-        <HeroSection />
-        <SkillsSection />
-        <ProfileSection />
-        <ProjectsSection />
-      </div>
-      <Footer />
+      {design === 0 && <FirstDesign />}
+
+      {design === 1 && <SecondDesign />}
+      {design === 2 && <ThirdDesign />}
     </div>
   );
 }
