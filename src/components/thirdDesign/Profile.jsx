@@ -42,7 +42,7 @@ function Profile() {
         ]
       : [];
   return (
-    <section className="px-20 py-4 ">
+    <section className="px-8 md:px-20 py-4 ">
       <div className="max-w-7xl flex flex-col items-start  w-full ">
         <h1 className="text-[32px] text-black  font-[500] dark:text-[#BAB2E7] ">
           {t("profileTitle")}

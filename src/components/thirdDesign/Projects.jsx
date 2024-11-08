@@ -54,7 +54,7 @@ function Projects() {
   return (
     <section
       ref={(el) => (sectionsRef.current["projects"] = el)}
-      className="px-20 py-4"
+      className="px-8 md:px-20 py-4"
     >
       <div className="flex flex-col gap-4 border-t pt-4 border-[#BAB2E7]">
         <h2 className="dark:text-[#BAB2E7] text-[32px]">{t("projectTitle")}</h2>
