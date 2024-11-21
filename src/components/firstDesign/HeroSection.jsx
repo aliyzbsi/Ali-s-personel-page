@@ -11,7 +11,7 @@ function HeroSection() {
   const { t } = useLanguage();
   return (
     <section className="p-8 md:p-16 pt-32 bg-gray-50 flex dark:bg-neutral-900 min-h-screen">
-      <article className="flex border-2 w-full flex-col md:flex-row justify-center items-center md:justify-around gap-8 md:gap-16">
+      <article className="flex w-full flex-col md:flex-row justify-center items-center md:justify-around gap-8 md:gap-16">
         <div className="flex flex-col items-start gap-8 w-full md:w-1/2 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start gap-4 md:w-3/4">
             <h1
