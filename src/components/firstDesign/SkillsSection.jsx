@@ -1,12 +1,10 @@
 import { useLanguage } from "../../context/LanguageContext";
 
-import { FaStar } from "react-icons/fa";
 import trData from "../../locales/tr.json";
 import enData from "../../locales/en.json";
 import { useEffect, useState } from "react";
 function SkillsSection() {
   const { t, selectedLang } = useLanguage();
-  const maxRating = 5;
 
   const [skills, setSkill] = useState([]);
 
@@ -37,16 +35,6 @@ function SkillsSection() {
                 alt={`${skill.name} logo`}
               />
               <p className="text-sm">{skill.name}</p>
-            </div>
-            <div className="flex items-center mt-2">
-              {Array.from({ length: maxRating }).map((_, index) => (
-                <FaStar
-                  key={index}
-                  className={`w-5 h-5 ${
-                    index < skill.rating ? "text-yellow-400" : "text-gray-300"
-                  }`}
-                />
-              ))}
             </div>
           </div>
         ))}
