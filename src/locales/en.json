@@ -1,11 +1,11 @@
 {
-  "entry": "Hi!",
+  "entry": "Hello!",
   "thirdDesignEntry": "Creative thinker Minimalism lover",
-  "thirdDesignHeaderAboutMe": "Hi, I’m Ali. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
-  "headerAboutMe": "I’m Ali. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
-  "secondHeaderAboutMe": "I am a Frontend Developer...",
-  "headerText": "Currently Freelancing for UX, UI, & Web Design Project. Invite me to join your team ",
-  "secondHeaderText": " ...who likes to craft solid and scalable frontend products with great user experiences.",
+  "thirdDesignHeaderAboutMe": "As a Firat University Software Engineering graduate and Full Stack Developer, I develop scalable and innovative web applications using Java, Spring Boot, and React. A curious Software Engineer who loves learning about every technology and continuous improvement.",
+  "headerAboutMe": "I'm Ali. As a Firat University Software Engineering graduate and Full Stack Developer, I develop scalable and innovative web applications using Java, Spring Boot, and React. A curious Software Engineer who loves learning about every technology and continuous improvement.",
+  "secondHeaderAboutMe": "I am a Full-Stack Developer",
+  "headerText": "Would you like to work together? Contact me.",
+  "secondHeaderText": "As a Firat University Software Engineering graduate and Full Stack Developer, I develop scalable and innovative web applications using Java, Spring Boot, and React. A curious Software Engineer who loves learning about every technology and continuous improvement.",
   "skillsTitle": "SKILLS",
   "profileTitle": "PROFILE",
   "basicInfo": "Basic Information",
@@ -96,11 +96,11 @@
 
   "personelInfo": [
     {
-      "dateOfBirth": "20/09/1999",
+      "dateOfBirth": "20/01/1999",
       "residenceAdr": "Aksaray",
-      "preferredRole": ["Frontend", "UI", "Backend"],
-      "education": "Firat University, Software Engineering, Bachelor Degree, 2022",
-      "aboutMe": "I was born on January 20, 1999 in Aksaray/Ortaköy and spent the first years of my education life here. I completed my undergraduate education at Fırat University Software Engineering department and graduated in 2022 with a GPA of 2.76. During my education, I had the opportunity to improve myself by doing research on different software languages, developing projects and doing internships. After graduation, I completed my military service as Test and Evaluation Section Chief at MSÜ Information Technology Department SOME Branch. Now, I aim to move my career forward by learning new technologies in the software field and improving myself."
+      "preferredRole": ["Frontend", "Backend"],
+      "education": "Firat University, Software Engineering, Bachelor's Degree, 2022",
+      "aboutMe": "I was born on January 20, 1999 in Aksaray/Ortaköy and spent the early years of my education there. I completed my undergraduate education in Software Engineering at Firat University and graduated in 2022. During my education, I had the opportunity to develop myself by researching different programming languages, developing projects, and completing internships. After graduation, I completed my military service as Test and Evaluation Section Chief at the MSÜ Information Processing Department SOME Branch. Afterwards, I advanced my career by receiving training from experts through the Full-Stack Development Bootcamp from Workintech. Now, I aim to further advance my career by learning new technologies and improving myself in the software field."
     }
   ],
   "skills": [
@@ -108,99 +108,121 @@
       "id": 1,
       "name": "JAVASCRIPT",
       "img": "/assets/skills/js.png",
-      "rating": 4,
-      "skillDesc": "Proficient in using JavaScript extensively in projects, with a strong command of the language's core concepts. Capable of writing and optimizing complex code structures for enhanced performance and maintainability."
+      "skillDesc": "Advanced proficiency in JavaScript with comprehensive understanding of the language. Can write code for complex projects and optimize existing structures. Skilled in improving code maintenance and performance."
     },
     {
       "id": 2,
       "name": "REACT",
       "img": "/assets/skills/react.png",
-      "rating": 4,
-      "skillDesc": "Highly skilled in React, applying advanced techniques and best practices for seamless integration in modern applications. Capable of building efficient, maintainable structures while optimizing for performance."
+      "skillDesc": "Specialized in the React ecosystem and actively implements modern React techniques in projects. Can create performance-optimized structures and ensure code maintainability."
     },
     {
       "id": 3,
-      "name": "REDUX",
-      "img": "/assets/skills/redux.svg",
-      "rating": 4,
-      "skillDesc": "Proficient in managing application state with Redux, especially in complex projects. Capable of creating optimized, maintainable state management structures for scalable data flow control."
+      "name": "JAVA",
+      "img": "/assets/skills/java.png",
+      "skillDesc": "Intermediate-level coding skills in Java, capable of developing projects with fundamental programming structures. Can write code following OOP principles."
     },
     {
       "id": 4,
-      "name": "NODE",
-      "img": "/assets/skills/node.png",
-      "rating": 3,
-      "skillDesc": "Intermediate proficiency in Node.js, with the ability to handle back-end development for simple to medium-level applications, ensuring both security and performance in server-side code."
+      "name": "SPRING",
+      "img": "/assets/skills/spring.png",
+      "skillDesc": "Can develop web applications and microservices with Spring Framework. Effectively uses core Spring concepts such as dependency injection and AOP."
     },
     {
       "id": 5,
-      "name": "HTML",
-      "img": "/assets/skills/html.png",
-      "rating": 5,
-      "skillDesc": "Fully adept at using HTML5, following semantic and accessibility standards for optimal structure. Creates clean, well-structured, and responsive code for modern web applications."
+      "name": "REDUX",
+      "img": "/assets/skills/redux.svg",
+      "skillDesc": "Effectively controls data flow in large and complex projects through Redux state management. Uses optimized Redux designs that ensure maintainability in projects."
     },
     {
       "id": 6,
-      "name": "CSS",
-      "img": "/assets/skills/css.png",
-      "rating": 4,
-      "skillDesc": "Highly skilled in CSS3 and preprocessors, utilizing modern styling techniques and animations effectively. Crafts responsive designs that adapt seamlessly to different screens and devices."
+      "name": "NODE",
+      "img": "/assets/skills/node.png",
+      "skillDesc": "Basic competency in Node.js environment, capable of implementing simple to intermediate backend development projects. Ensures security and performance adequacy of software."
     },
     {
       "id": 7,
-      "name": "BOOTSTRAP",
-      "img": "/assets/skills/boostrap.png",
-      "rating": 4,
-      "skillDesc": "Experienced in Bootstrap for quickly developing responsive designs. Customizes interfaces for user-centric designs that enhance UI/UX."
+      "name": "HTML",
+      "img": "/assets/skills/html.png",
+      "skillDesc": "Creates content fully compliant with HTML5 standards, following accessibility (a11y) and semantic structure rules. Provides advanced structure and organization in projects."
     },
     {
       "id": 8,
-      "name": "TAILWIND",
-      "img": "/assets/skills/tailwind.png",
-      "rating": 4,
-      "skillDesc": "Proficient in Tailwind CSS, enabling rapid, modular styling. Specializes in creating personalized, high-performance user interfaces."
+      "name": "CSS",
+      "img": "/assets/skills/css.png",
+      "skillDesc": "High proficiency in CSS3 and preprocessors, effectively using modern styling techniques and animations in projects. Creates designs responsive to different screen sizes and devices."
     },
     {
       "id": 9,
-      "name": "GITHUB",
-      "img": "/assets/skills/github.png",
-      "rating": 4,
-      "skillDesc": "Highly proficient in using GitHub for version control and collaborative development. Effectively manages branches and integrates best practices for team-oriented projects."
+      "name": "C#",
+      "img": "/assets/skills/csharp.png",
+      "skillDesc": "Intermediate-level coding skills in C#, capable of developing applications in the .NET ecosystem. Can write code following OOP principles and use basic data structures."
     },
     {
       "id": 10,
-      "name": "JAVA",
-      "img": "/assets/skills/java.png",
-      "rating": 3,
-      "skillDesc": "Intermediate knowledge of Java, capable of developing projects with fundamental programming structures and applying OOP principles."
+      "name": ".NET",
+      "img": "/assets/skills/dotnet.png",
+      "skillDesc": "Can develop web applications and APIs with .NET Framework and .NET Core. Able to implement core concepts such as dependency injection and MVC architecture."
     },
     {
       "id": 11,
-      "name": "FIREBASE",
-      "img": "/assets/skills/firebase.png",
-      "rating": 3,
-      "skillDesc": "Competent in using Firebase for essential database, authentication, and hosting services in projects. Capable of structuring basic back-end setups and managing data flow."
+      "name": "GITHUB",
+      "img": "/assets/skills/github.png",
+      "skillDesc": "Effectively uses GitHub in development and collaboration processes. Applies best practices for version control, branch management, and collaboration."
     },
     {
       "id": 12,
-      "name": "VSCODE",
-      "img": "/assets/skills/vscode.png",
-      "rating": 4,
-      "skillDesc": "Efficient in using Visual Studio Code, optimizing productivity through advanced configurations and extensions. Customizes the workspace effectively for project-specific needs."
+      "name": "FIREBASE",
+      "img": "/assets/skills/firebase.png",
+      "skillDesc": "Can create basic database, authentication, and hosting solutions using Firebase in projects. Able to establish comprehensive backend structures to manage data flow."
     },
     {
       "id": 13,
-      "name": "PYTHON",
-      "img": "/assets/skills/python.png",
-      "rating": 2,
-      "skillDesc": "Basic understanding of Python programming concepts. Capable of reading and coding simple structures in Python."
+      "name": "VSCODE",
+      "img": "/assets/skills/vscode.png",
+      "skillDesc": "Effectively uses Visual Studio Code, skillfully managing extensions and configurations to increase productivity. Capable of customizing the workspace according to project needs."
     },
     {
       "id": 14,
+      "name": "PYTHON",
+      "img": "/assets/skills/python.png",
+      "skillDesc": "Knowledgeable about basic programming structures in Python. Can read and code simple Python projects."
+    },
+    {
+      "id": 15,
       "name": "VERCEL",
       "img": "/assets/skills/vercel.png",
-      "rating": 4,
-      "skillDesc": "Skilled in deploying projects on Vercel, with knowledge of CI/CD processes. Capable of setting up continuous deployment for efficient project management."
+      "skillDesc": "Can quickly configure and deploy projects on Vercel. Knowledgeable about CI/CD processes and can create continuous deployment structures."
+    },
+    {
+      "id": 16,
+      "name": "TAILWIND",
+      "img": "/assets/skills/tailwind.png",
+      "skillDesc": "Proficient in rapid and modular style development with Tailwind CSS. Specialized in creating customized and high-performance user interfaces."
+    },
+    {
+      "id": 17,
+      "name": "BOOTSTRAP",
+      "img": "/assets/skills/boostrap.png",
+      "skillDesc": "Can efficiently and quickly develop responsive designs with Bootstrap. Creates customized and user-focused interfaces, contributing to the UI/UX enrichment of projects."
+    },
+    {
+      "id": 18,
+      "name": "DOCKER",
+      "img": "/assets/skills/docker.png",
+      "skillDesc": "Can package and distribute applications using Docker containers. Understands and implements basic Docker commands and configurations."
+    },
+    {
+      "id": 19,
+      "name": "GIT",
+      "img": "/assets/skills/git.png",
+      "skillDesc": "Can effectively use the Git version control system. Performs branch, merge, and rebase operations and manages the codebase."
+    },
+    {
+      "id": 20,
+      "name": "AWS",
+      "img": "/assets/skills/aws.png",
+      "skillDesc": "Can perform basic infrastructure and application deployment using AWS cloud services. Understands and uses core AWS services such as EC2, S3, and Lambda."
     }
   ]
 }

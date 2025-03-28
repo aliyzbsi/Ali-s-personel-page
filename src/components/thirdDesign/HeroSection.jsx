@@ -4,10 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import { useLanguage } from "../../context/LanguageContext";
 import { useTheme } from "../../context/ThemeContext";
 import { FaFileDownload } from "react-icons/fa";
-import cv from "../../../public/Aliyzbsiresume.pdf";
+import cvtr from "../../../public/Aliyzbsiresumetr.pdf";
+import cven from "../../../public/Aliyzbsiresumeen.pdf";
 import SecondHeader from "./SecondHeader";
 function HeroSection() {
-  const { t } = useLanguage();
+  const { t, selectedLang } = useLanguage();
 
   return (
     <section className="flex flex-col min-h-full pb-10 px-10 md:px-0">
@@ -47,7 +48,7 @@ function HeroSection() {
               </a>
 
               <a
-                href={cv}
+                href={selectedLang === "tr" ? cvtr : cven}
                 className="bg-white dark:bg-[#383838] border dark:text-[#E1E1FF] dark:border-[#E1E1FF] border-[#3730A3] dark:hover:bg-black dark:hover:text-white flex items-center gap-2 text-[#3730A3] py-2 px-8 rounded hover:bg-blue-600 hover:text-white"
                 download
               >

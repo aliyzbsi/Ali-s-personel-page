@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import EN_LANG from "../locales/en.json";
 import TR_LANG from "../locales/tr.json";
 import useLocaleStorage from "../hooks/useLocaleStorage";

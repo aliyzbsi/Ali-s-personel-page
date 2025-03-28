@@ -4,9 +4,10 @@ import { FaGithub } from "react-icons/fa";
 import { useLanguage } from "../../context/LanguageContext";
 import { useTheme } from "../../context/ThemeContext";
 import { FaFileDownload } from "react-icons/fa";
-import cv from "../../../public/Aliyzbsiresume.pdf";
+import cvtr from "../../../public/Aliyzbsiresumetr.pdf";
+import cven from "../../../public/Aliyzbsiresumeen.pdf";
 function HeroSection() {
-  const { t } = useLanguage();
+  const { t, selectedLang } = useLanguage();
   const { darkMode } = useTheme();
   return (
     <section
@@ -50,7 +51,7 @@ function HeroSection() {
               </a>
 
               <a
-                href={cv}
+                href={selectedLang === "tr" ? cvtr : cven}
                 className="bg-white flex items-center gap-2 text-black py-3 px-4 rounded hover:bg-green-600 hover:text-white"
                 download
               >

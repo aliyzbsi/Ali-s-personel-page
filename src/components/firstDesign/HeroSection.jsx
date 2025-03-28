@@ -4,11 +4,16 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { FaFileDownload } from "react-icons/fa";
-import cv from "../../../public/Aliyzbsiresume.pdf";
+import cvtr from "../../../public/Aliyzbsiresumetr.pdf";
+import cven from "../../../public/Aliyzbsiresumeen.pdf";
 import { useLanguage } from "../../context/LanguageContext";
+import { useEffect } from "react";
 
 function HeroSection() {
-  const { t } = useLanguage();
+  const { t, selectedLang } = useLanguage();
+  useEffect(() => {
+    console.log("burdan", selectedLang);
+  }, [selectedLang]);
   return (
     <section className="p-8 md:p-16 pt-32 bg-gray-50 flex dark:bg-neutral-900 min-h-screen">
       <article className="flex w-full flex-col md:flex-row justify-center items-center md:justify-around gap-8 md:gap-16">
@@ -62,12 +67,12 @@ function HeroSection() {
             </p>
             <div className="flex  justify-center md:justify-start">
               <a
-                href={cv}
+                href={selectedLang === "tr" ? cvtr : cven}
                 className="flex items-center gap-2 border-2 dark:text-white w-32 p-2 rounded-3xl justify-center font-semibold text-sm border-red-500 hover:text-white hover:bg-red-500"
                 download
               >
                 {t("cv")}
-                <FaFileDownload />
+                <FaFileDownload size={20} />
               </a>
             </div>
           </div>

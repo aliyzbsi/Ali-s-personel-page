@@ -1,11 +1,11 @@
 {
   "entry": "Merhaba!",
   "thirdDesignEntry": "Yaratıcı düşünür Minimalizm aşığı",
-  "thirdDesignHeaderAboutMe": "Merhaba ben Ali. Ben tam kapsamlı bir geliştiriciyim. Mükemmel kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleri üretecek bir Geliştirici arıyorsanız. Benimle birlikte çalışmak ister misiniz ?",
-  "headerAboutMe": "Ben Ali. Ben bir full-stack geliştiricisiyim. Sağlam ve ölçeklenebilir frontend ürünleri oluşturabilirim. Tanışalım!",
-  "secondHeaderAboutMe": "Ben bir Frontend Geliştiriciyim",
-  "headerText": "Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum. Beni ekibinize davet edin ",
-  "secondHeaderText": "Harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir ön uç ürünler oluşturmayı seven.",
+  "thirdDesignHeaderAboutMe": "Fırat Üniversitesi Yazılım Mühendisliği mezunu ve Full Stack Developer olarak, Java, Spring Boot ve React kullanarak ölçeklenebilir ve yenilikçi web uygulamaları geliştiriyorum. Her teknolojinin meraklısı, öğrenmeyi ve gelişmeyi seven bir Yazılım Mühendisi.",
+  "headerAboutMe": "Ben Ali. Fırat Üniversitesi Yazılım Mühendisliği mezunu ve Full Stack Developer olarak, Java, Spring Boot ve React kullanarak ölçeklenebilir ve yenilikçi web uygulamaları geliştiriyorum. Her teknolojinin meraklısı, öğrenmeyi ve gelişmeyi seven bir Yazılım Mühendisi. ",
+  "secondHeaderAboutMe": "Ben bir Full-Stack Geliştiriciyim",
+  "headerText": "Birlikte çalışmak ister misiniz ? Bana ulaşın. ",
+  "secondHeaderText": "Fırat Üniversitesi Yazılım Mühendisliği mezunu ve Full Stack Developer olarak, Java, Spring Boot ve React kullanarak ölçeklenebilir ve yenilikçi web uygulamaları geliştiriyorum. Her teknolojinin meraklısı, öğrenmeyi ve gelişmeyi seven bir Yazılım Mühendisi.",
   "skillsTitle": "YETENEKLER",
   "profileTitle": "PROFİL",
   "basicInfo": "Temel Bilgiler",
@@ -97,11 +97,11 @@
 
   "personelInfo": [
     {
-      "dateOfBirth": "20/09/1999",
+      "dateOfBirth": "20/01/1999",
       "residenceAdr": "Aksaray",
-      "preferredRole": ["Frontend", "UI", "Backend"],
+      "preferredRole": ["Frontend", "Backend"],
       "education": "Fırat Üniversitesi, Yazılım Mühendisliği, Lisans Diploması, 2022",
-      "aboutMe": "20 Ocak 1999’da Aksaray/Ortaköy’de doğdum ve eğitim hayatımın ilk yıllarını burada geçirdim. Lisans eğitimimi Fırat Üniversitesi Yazılım Mühendisliği bölümünde tamamladım ve 2022’de 2.76 ortalama ile mezun oldum. Eğitim sürecimde farklı yazılım dilleri üzerinde araştırmalar yaparak, projeler geliştirerek ve stajlar yaparak kendimi geliştirme fırsatı buldum. Mezuniyetin ardından, MSÜ Bilgi İşlem Daire Başkanlığı SOME Şubesi’nde Test ve Değerlendirme Kısım Amiri olarak askerlik görevimi tamamladım. Şimdi ise yazılım alanında yeni teknolojiler öğrenerek ve kendimi geliştirerek kariyerimi ileriye taşımayı hedefliyorum.   "
+      "aboutMe": "20 Ocak 1999’da Aksaray/Ortaköy’de doğdum ve eğitim hayatımın ilk yıllarını burada geçirdim. Lisans eğitimimi Fırat Üniversitesi Yazılım Mühendisliği bölümünde tamamladım ve 2022’de mezun oldum. Eğitim sürecimde farklı yazılım dilleri üzerinde araştırmalar yaparak, projeler geliştirerek ve stajlar yaparak kendimi geliştirme fırsatı buldum. Mezuniyetin ardından, MSÜ Bilgi İşlem Daire Başkanlığı SOME Şubesi’nde Test ve Değerlendirme Kısım Amiri olarak askerlik görevimi tamamladım. Sonrasında Workintech kurumundan almış olduğum Full-Stack Development Bootcamp ile uzmanlardan eğitim alarak kariyerimi ileri taşıdım. Şimdi ise yazılım alanında yeni teknolojiler öğrenerek ve kendimi geliştirerek kariyerimi daha da ileriye taşımayı hedefliyorum.   "
     }
   ],
 
@@ -110,101 +110,121 @@
       "id": 1,
       "name": "JAVASCRIPT",
       "img": "/assets/skills/js.png",
-      "rating": 4,
       "skillDesc": "Projelerinde ileri düzeyde kullanmakta olup dilin kapsamlı yapısına hakimdir. Karmaşık projelerde kod yazabilir ve mevcut yapıları optimize edebilir. Kodun bakımını ve performansını iyileştirme becerisine sahiptir."
     },
     {
       "id": 2,
       "name": "REACT",
       "img": "/assets/skills/react.png",
-      "rating": 4,
       "skillDesc": "React ekosisteminde uzmanlaşmıştır ve modern React tekniklerini projelerinde aktif bir şekilde uygulamaktadır. Performansı optimize eden yapılar oluşturabilir ve kodun sürdürülebilirliğini sağlar."
     },
     {
       "id": 3,
-      "name": "REDUX",
-      "img": "/assets/skills/redux.svg",
-      "rating": 4,
-      "skillDesc": "Redux durum yönetimi aracılığıyla büyük ve karmaşık projelerde veri akışını etkin bir şekilde kontrol edebilmektedir. Projelerinde yapıyı optimize eden ve sürdürülebilirliği sağlayan Redux tasarımlarını kullanmaktadır."
-    },
-    {
-      "id": 4,
-      "name": "NODE",
-      "img": "/assets/skills/node.png",
-      "rating": 3,
-      "skillDesc": "Node.js ortamında temel yetkinliğe sahiptir ve backend geliştirme süreçlerinde basit ve orta seviye projeleri gerçekleştirebilir. Yazılımların güvenlik ve performans açısından yeterliliğini sağlar."
-    },
-    {
-      "id": 5,
-      "name": "HTML",
-      "img": "/assets/skills/html.png",
-      "rating": 5,
-      "skillDesc": "HTML5 standartlarına tam uyumlu, erişilebilirlik (a11y) ve semantik yapı kurallarına göre içerik oluşturabilmektedir. Projelerinde ileri düzey bir yapı ve düzenleme sunar."
-    },
-    {
-      "id": 6,
-      "name": "CSS",
-      "img": "/assets/skills/css.png",
-      "rating": 4,
-      "skillDesc": "CSS3 ve ön işlemciler konusunda yüksek yetkinliğe sahip olup, projelerinde modern stil tekniklerini ve animasyonları etkili bir şekilde kullanır. Farklı ekran boyutlarına ve cihazlara duyarlı tasarımlar oluşturur."
-    },
-    {
-      "id": 7,
-      "name": "BOOTSTRAP",
-      "img": "/assets/skills/boostrap.png",
-      "rating": 4,
-      "skillDesc": "Bootstrap ile verimli ve hızlı bir şekilde duyarlı tasarımlar geliştirebilir. Özelleştirilmiş ve kullanıcı odaklı arayüzler oluşturur, projelerin UI/UX açısından zenginleşmesine katkıda bulunur."
-    },
-    {
-      "id": 8,
-      "name": "TAILWIND",
-      "img": "/assets/skills/tailwind.png",
-      "rating": 4,
-      "skillDesc": "Tailwind CSS ile hızlı ve modüler bir stil geliştirme yapısına hakimdir. Özellikle kişiselleştirilmiş ve yüksek performanslı kullanıcı arayüzleri oluşturmakta uzmanlaşmıştır."
-    },
-
-    {
-      "id": 9,
-      "name": "GITHUB",
-      "img": "/assets/skills/github.png",
-      "rating": 4,
-      "skillDesc": "Geliştirme ve işbirliği süreçlerinde GitHub'ı etkin bir şekilde kullanır. Versiyon kontrolü, branch yönetimi ve iş birliğine yönelik en iyi uygulamaları uygular."
-    },
-    {
-      "id": 10,
       "name": "JAVA",
       "img": "/assets/skills/java.png",
-      "rating": 3,
       "skillDesc": "Java dilinde orta seviyede kodlama becerisine sahip olup, temel programlama yapılarıyla projeler geliştirebilir. OOP prensiplerine uygun kod yazabilir."
     },
     {
+      "id": 4,
+      "name": "SPRING",
+      "img": "/assets/skills/spring.png",
+      "skillDesc": "Spring Framework ile web uygulamaları ve mikroservisler geliştirebilir. Dependency injection ve AOP gibi temel Spring konseptlerini etkin şekilde kullanabilir."
+    },
+    {
+      "id": 5,
+      "name": "REDUX",
+      "img": "/assets/skills/redux.svg",
+      "skillDesc": "Redux durum yönetimi aracılığıyla büyük ve karmaşık projelerde veri akışını etkin bir şekilde kontrol edebilmektedir. Projelerinde yapıyı optimize eden ve sürdürülebilirliği sağlayan Redux tasarımlarını kullanmaktadır."
+    },
+    {
+      "id": 6,
+      "name": "NODE",
+      "img": "/assets/skills/node.png",
+      "skillDesc": "Node.js ortamında temel yetkinliğe sahiptir ve backend geliştirme süreçlerinde basit ve orta seviye projeleri gerçekleştirebilir. Yazılımların güvenlik ve performans açısından yeterliliğini sağlar."
+    },
+    {
+      "id": 7,
+      "name": "HTML",
+      "img": "/assets/skills/html.png",
+      "skillDesc": "HTML5 standartlarına tam uyumlu, erişilebilirlik (a11y) ve semantik yapı kurallarına göre içerik oluşturabilmektedir. Projelerinde ileri düzey bir yapı ve düzenleme sunar."
+    },
+    {
+      "id": 8,
+      "name": "CSS",
+      "img": "/assets/skills/css.png",
+      "skillDesc": "CSS3 ve ön işlemciler konusunda yüksek yetkinliğe sahip olup, projelerinde modern stil tekniklerini ve animasyonları etkili bir şekilde kullanır. Farklı ekran boyutlarına ve cihazlara duyarlı tasarımlar oluşturur."
+    },
+    {
+      "id": 9,
+      "name": "C#",
+      "img": "/assets/skills/csharp.png",
+      "skillDesc": "C# dilinde orta seviyede kodlama becerisine sahip olup, .NET ekosisteminde uygulamalar geliştirebilir. OOP prensiplerine uygun kod yazabilir ve temel veri yapılarını kullanabilir."
+    },
+    {
+      "id": 10,
+      "name": ".NET",
+      "img": "/assets/skills/dotnet.png",
+      "skillDesc": ".NET Framework ve .NET Core ile web uygulamaları ve API'ler geliştirebilir. Dependency injection ve MVC mimarisi gibi temel konseptleri uygulayabilir."
+    },
+    {
       "id": 11,
-      "name": "FIREBASE",
-      "img": "/assets/skills/firebase.png",
-      "rating": 3,
-      "skillDesc": "Firebase'i projelerinde kullanarak temel veri tabanı, kimlik doğrulama ve barındırma çözümleri oluşturabilir. Kapsamlı backend yapılarını kurarak veri akışını yönetebilir."
+      "name": "GITHUB",
+      "img": "/assets/skills/github.png",
+      "skillDesc": "Geliştirme ve işbirliği süreçlerinde GitHub'ı etkin bir şekilde kullanır. Versiyon kontrolü, branch yönetimi ve iş birliğine yönelik en iyi uygulamaları uygular."
     },
     {
       "id": 12,
-      "name": "VSCODE",
-      "img": "/assets/skills/vscode.png",
-      "rating": 4,
-      "skillDesc": "Visual Studio Code'u etkin bir şekilde kullanarak, üretkenliğini artıracak eklenti ve konfigürasyonları ustaca yönetir. Çalışma alanını projelerine göre özelleştirme becerisine sahiptir."
+      "name": "FIREBASE",
+      "img": "/assets/skills/firebase.png",
+      "skillDesc": "Firebase'i projelerinde kullanarak temel veri tabanı, kimlik doğrulama ve barındırma çözümleri oluşturabilir. Kapsamlı backend yapılarını kurarak veri akışını yönetebilir."
     },
-
     {
       "id": 13,
-      "name": "PYTHON",
-      "img": "/assets/skills/python.png",
-      "rating": 2,
-      "skillDesc": "Python dilinde temel programlama yapıları hakkında bilgi sahibidir. Basit yapıdaki Python projelerini okuyabilir ve kodlayabilir."
+      "name": "VSCODE",
+      "img": "/assets/skills/vscode.png",
+      "skillDesc": "Visual Studio Code'u etkin bir şekilde kullanarak, üretkenliğini artıracak eklenti ve konfigürasyonları ustaca yönetir. Çalışma alanını projelerine göre özelleştirme becerisine sahiptir."
     },
     {
       "id": 14,
+      "name": "PYTHON",
+      "img": "/assets/skills/python.png",
+      "skillDesc": "Python dilinde temel programlama yapıları hakkında bilgi sahibidir. Basit yapıdaki Python projelerini okuyabilir ve kodlayabilir."
+    },
+    {
+      "id": 15,
       "name": "VERCEL",
       "img": "/assets/skills/vercel.png",
-      "rating": 4,
       "skillDesc": "Projelerini Vercel üzerinde hızlı bir şekilde yapılandırıp dağıtabilmektedir. CI/CD süreçleri konusunda bilgi sahibidir ve sürekli dağıtım yapıları oluşturabilir."
+    },
+    {
+      "id": 16,
+      "name": "TAILWIND",
+      "img": "/assets/skills/tailwind.png",
+      "skillDesc": "Tailwind CSS ile hızlı ve modüler bir stil geliştirme yapısına hakimdir. Özellikle kişiselleştirilmiş ve yüksek performanslı kullanıcı arayüzleri oluşturmakta uzmanlaşmıştır."
+    },
+    {
+      "id": 17,
+      "name": "BOOTSTRAP",
+      "img": "/assets/skills/boostrap.png",
+      "skillDesc": "Bootstrap ile verimli ve hızlı bir şekilde duyarlı tasarımlar geliştirebilir. Özelleştirilmiş ve kullanıcı odaklı arayüzler oluşturur, projelerin UI/UX açısından zenginleşmesine katkıda bulunur."
+    },
+    {
+      "id": 18,
+      "name": "DOCKER",
+      "img": "/assets/skills/docker.png",
+      "skillDesc": "Docker konteynerlerini kullanarak uygulamaları paketleyebilir ve dağıtabilir. Temel Docker komutlarını ve yapılandırmalarını anlayabilir ve uygulayabilir."
+    },
+    {
+      "id": 19,
+      "name": "GIT",
+      "img": "/assets/skills/git.png",
+      "skillDesc": "Git versiyon kontrol sistemini etkin bir şekilde kullanabilir. Branch, merge ve rebase işlemlerini gerçekleştirebilir ve kod tabanını yönetebilir."
+    },
+    {
+      "id": 20,
+      "name": "AWS",
+      "img": "/assets/skills/aws.png",
+      "skillDesc": "AWS bulut hizmetlerini kullanarak temel altyapı ve uygulama dağıtımı yapabilir. EC2, S3 ve Lambda gibi temel AWS servislerini anlayabilir ve kullanabilir."
     }
   ]
 }
